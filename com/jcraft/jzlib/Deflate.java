@@ -773,7 +773,6 @@ public final class Deflate {
 			int len, // its length
 			boolean header // true if block header must be written
 	) {
-		int index = 0;
 		bi_windup(); // align on byte boundary
 		this.last_eob_len = 8; // enough lookahead for inflate
 

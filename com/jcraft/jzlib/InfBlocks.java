@@ -422,7 +422,6 @@ final class InfBlocks {
 						break;
 					}
 
-					int[] h;
 					int i, j, c;
 
 					t = this.bb[0];
